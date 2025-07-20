@@ -45,8 +45,15 @@ sudo service redis-server start
 Вместо `xxxx` вставить свой порт, у меня `7181`.
 
 # Остановка процессов
-1. Выполнить команду ```bash sudo service redis-server stop``` чтобы корректно завершить работу Redis.
-Или принудительно командой ```bash sudo killall redis-server```
+1. Выполнить команду 
+```bash 
+sudo service redis-server stop
+```
+ чтобы корректно завершить работу Redis.
+Или принудительно командой 
+```bash 
+sudo killall redis-server
+```
 
 
 # Дополнительная информация.
